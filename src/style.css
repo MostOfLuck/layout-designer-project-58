@@ -1,3 +1,40 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(/fonts/Neucha/Neucha-Regular.ttf);
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 1.2em;
+}
+
+header,main,footer {
+  width: 1110px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 :root {
   --white: #fff;
   --semi-transparent-white: #d7ccc0;
@@ -10,3 +47,102 @@
   --blue: #1085c5;
 }
 
+header::before {
+  content: "";
+  position: fixed; /* Используем position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.main-tota {
+  background-image: url(/img/main.png);
+}
+.main-tota {
+height: 525px;
+top: 55px;
+right: -270px;
+left: 461px;
+}
+.main-tota {
+  position: relative;
+  background-repeat: no-repeat;
+}
+h1 {
+  position: absolute;
+}
+h1 {
+  font-family: Neucha;
+}
+
+.orange {
+  color: var(--primary);
+}
+
+.dark {
+  color: var(--dark);
+}
+.text-block-container {
+  display: flex; /* Используем flexbox для выравнивания и разделения блоков */
+  justify-content: space-between; /* Распределение между блоками с равными отступами */
+  margin: 0 -15px; /* Отрицательные отступы для компенсации внутренних отступов блоков */
+}
+.text-block1 {
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.text-block1 {
+width: 540px;
+height: 141px;
+top: 543px;
+left: 165px;
+}
+
+.text-block1 {
+  flex: 1;
+  padding: 0 15px;
+}
+.text-block1 {
+  color: var(--dark);
+}
+.text-block1 {
+  position: absolute;
+}
+.text-block2 {
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.text-block2 {
+width: 540px;
+height: 186px;
+top: 539px;
+left: 735px;
+}
+
+.text-block2 {
+  flex: 1;
+  padding: 0 15px;
+}
+.text-block2 {
+  color: var(--dark);
+}
+
+.text-block2 {
+  position: absolute;
+}
