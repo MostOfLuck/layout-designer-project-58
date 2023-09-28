@@ -527,14 +527,15 @@ text-align: left;
         transition: opacity 0.3s ease; /* Добавляем переход для плавного изменения прозрачности */
       }
       
-      .card1:hover::before,
-      .card2:hover::before,
-      .card3:hover::before,
-      .card4:hover::before,
-      .card5:hover::before {
-        background-color: rgba(0, 0, 0, 0.1); /* Цвет фона при наведении */
-        opacity: 1; /* Показываем фон при наведении */
+      .card1:hover,
+      .card2:hover,
+      .card3:hover,
+      .card4:hover,
+      .card5:hover {
+        opacity: 0.8; /* Настройте значение по своему усмотрению (0 - полностью прозрачный, 1 - непрозрачный) */
+        transition: opacity 0.3s ease; /* Добавьте плавное изменение прозрачности */
       }
+      
 
       
 .title4 {
