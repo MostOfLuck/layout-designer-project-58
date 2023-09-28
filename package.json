@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "make-lint": "^1.0.1"
+    "make-lint": "^1.0.1",
+    "prettier": "3.0.3"
   }
 }

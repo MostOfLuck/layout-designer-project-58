@@ -14,6 +14,10 @@
   color: #2A2626;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .text-block1, .text-block2, .text-block3 {
   color: var(--dark); 
