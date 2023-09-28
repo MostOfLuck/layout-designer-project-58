@@ -1,6 +1,6 @@
 @font-face {
   font-family: Open Sans;
-  src: url(/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  src: url(/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf);
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
@@ -13,6 +13,7 @@
   line-height: 1.6em;
   color: #2A2626;
 }
+
 
 .text-block1, .text-block2, .text-block3 {
   color: var(--dark); 
@@ -513,3 +514,31 @@ text-align: left;
       letter-spacing: 0em;
       text-align: left;
       }
+
+      .card1::before,
+      .card2::before,
+      .card3::before,
+      .card4::before,
+      .card5::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0); /* Начальный цвет фона */
+        z-index: 1;
+        opacity: 0; /* Исходно скрываем фон */
+        transition: opacity 0.3s ease; /* Добавляем переход для плавного изменения прозрачности */
+      }
+      
+      .card1:hover::before,
+      .card2:hover::before,
+      .card3:hover::before,
+      .card4:hover::before,
+      .card5:hover::before {
+        background-color: rgba(0, 0, 0, 0.1); /* Цвет фона при наведении */
+        opacity: 1; /* Показываем фон при наведении */
+      }
+      
+      
