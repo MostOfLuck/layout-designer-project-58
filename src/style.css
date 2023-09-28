@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Open Sans;
-  src: url(/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf);
+  font-family: OpenSans;
+  src: url(/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth-wght.ttf);
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
@@ -62,7 +62,7 @@ header,main,footer {
   --blue: #1085c5;
 }
 
-header::before {
+.background::before {
   content: "";
   position: absolute;
   background-image: url(/img/background.png);
@@ -266,9 +266,6 @@ left: 265px;
   z-index: 1; /* Установите z-index секции с видео на значение 1 */
 }
 
-.video {
-  margin-bottom: 50px;
-}
 
 .block1 {
   position: absolute;
@@ -280,9 +277,7 @@ left: 265px;
 }
 
 
-.block1 {
-  margin-top: 50px;
-}
+
 #navigation {
  position: absolute;
  width: 1800px;
@@ -540,5 +535,165 @@ text-align: left;
         background-color: rgba(0, 0, 0, 0.1); /* Цвет фона при наведении */
         opacity: 1; /* Показываем фон при наведении */
       }
+
       
+.title4 {
+  position: relative;
+font-family: Neucha;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+color: #2A2626;
+
+
+} 
       
+.title4 {
+ width: 502px;
+height: 72px;
+top: 2137px;
+left: 900px;
+}
+
+
+
+.background2 {
+  background-image: url(/img/background.png);
+}
+
+.background2 {
+position: absolute;
+width: 1440px;
+height: 960px;
+top: 3100px;
+background-color: #F5F4F0;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.1;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+
+.description2 {
+  position: relative;
+width: 502px;
+height: 120px;
+top: 2170px;
+left: 900px;
+}
+
+.description2 {
+font-family: Neucha;
+font-size: 34px;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: #2A2626;
+}
+
+.pre-title1 {
+  position: relative;
+ width: 502px;
+height: 29px;
+top: 2127px;
+left: 900px;
+}
+
+.pre-title1 {
+font-family: Neucha;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color:  #908D8B;
+}
+
+.tota-png1 {
+position: relative;
+width: 578px;
+height: 434px;
+top: 1900px;
+left: 165px;
+vertical-align: middle;
+}
+.tota-png1 {
+  box-shadow: 0px 16px 32px 0px #00000026;
+}
+
+.ikea-effect {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Создает две колонки с равной шириной */
+  grid-gap: 20px; /* Добавляет пространство между колонками */
+}
+
+.column {
+  /* Стилизуйте ваши колонки здесь */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  margin-right: 20px;
+  max-width: 50%; 
+  top: 2060px;
+  left: 160px;
+}
+
+
+.column {
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.container-block-section1 {
+  position: absolute;
+ width: 1110px;
+height: 26px;
+top: 3710px;
+left: 165px;
+}
+
+.container-block-section1 {
+  background: #B09A81;
+}
+
+.title-section1 {
+position: relative;
+width: 136px;
+height: 16px;
+top: 2010px;
+left: -800px;
+}
+
+.title-section1 {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--white);
+}
