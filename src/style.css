@@ -13,6 +13,18 @@
   line-height: 1.6em;
   color: #2A2626;
 }
+
+.text-block1, .text-block2, .text-block3 {
+  color: var(--dark); 
+}
+.number1, .number2, .number3, .number4, .number5 {
+  color: var(--dark); 
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -280,19 +292,19 @@ z-index: -1;
 }
 .title-three {
 position: relative;
-width: 350px;
+width: 500px;
 height: 323px;
 top: 1600px;
-left: -700px;
+left: -545px;
 }
 
 
 
 .title-three {
   font-family: Neucha;
-  font-size: 41px;
+  font-size: 52px;
   font-weight: 400;
-  line-height: 62px;
+  line-height: 75px;
   letter-spacing: 0em;
   text-align: left;
   
@@ -303,12 +315,16 @@ left: -700px;
 width: 350px;
 height: 323px;
 top: 2226px;
-left: 545px;
+left: 670px;
 gap: 39px;
 }
 
 .card1 {
   background-color: var(--white);
+}
+
+.card1 {
+  padding: 24px;
 }
 
 .number1 {
@@ -368,14 +384,16 @@ text-align: left;
 width: 350px;
 height: 323px;
 top: 2226px;
-left: 1000px;
+left: 1100px;
 gap: 39px;
 }
 
 .card2 {
   background-color: var(--white);
 }
-
+.card2 {
+  padding: 24px;
+}
 .number2 {
 position: relative;
 width: 23px;
@@ -391,5 +409,107 @@ font-weight: 400;
 line-height: 71px;
 letter-spacing: 0em;
 text-align: left;
-
 }
+
+.card3 {
+  position: absolute;
+  width: 350px;
+  height: 323px;
+  top: 2630px;
+  left: 240px;
+  gap: 39px;
+}
+
+.card3 {
+  background-color: var(--white);
+}
+
+.card3 {
+  padding: 24px;
+}
+
+.number3 {
+  position: relative;
+  width: 23px;
+  height: 64px;
+  top: 24px;
+  left: 24px;
+  
+  }
+  .number3 {
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+
+
+  .card4 {
+    position: absolute;
+    width: 350px;
+    height: 323px;
+    top: 2630px;
+    left: 670px;
+    gap: 39px;
+  }
+  
+  .card4 {
+    background-color: var(--white);
+  }
+  
+  .card4{
+    padding: 24px;
+  }
+  
+  .number4 {
+    position: relative;
+    width: 23px;
+    height: 64px;
+    top: 24px;
+    left: 24px;
+    
+    }
+    .number4 {
+    font-family: Neucha;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .card5 {
+      position: absolute;
+      width: 350px;
+      height: 323px;
+      top: 2630px;
+      left: 1100px;
+      gap: 39px;
+    }
+    
+    .card5 {
+      background-color: var(--white);
+    }
+    
+    .card5 {
+      padding: 24px;
+    }
+    
+    .number5 {
+      position: relative;
+      width: 23px;
+      height: 64px;
+      top: 24px;
+      left: 24px;
+      
+      }
+      .number5 {
+      font-family: Neucha;
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 71px;
+      letter-spacing: 0em;
+      text-align: left;
+      }
