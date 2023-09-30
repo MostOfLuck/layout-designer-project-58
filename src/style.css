@@ -642,9 +642,6 @@ vertical-align: middle;
   grid-gap: 20px; /* Добавляет пространство между колонками */
 }
 
-.column {
-  /* Стилизуйте ваши колонки здесь */
-}
 
 .container {
   display: flex;
@@ -673,6 +670,10 @@ text-align: left;
 
 }
 
+.column {
+  margin-right: 15px;
+  margin-left: 15px;
+}
 .container-block-section1 {
   position: absolute;
  width: 1110px;
@@ -689,7 +690,7 @@ left: 165px;
 position: relative;
 width: 136px;
 height: 16px;
-top: 2010px;
+top: 1910px;
 left: -800px;
 }
 
@@ -702,3 +703,78 @@ letter-spacing: 0em;
 text-align: left;
 color: var(--white);
 }
+
+.title-section1 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.premature-optimization {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-section2 {
+  position: relative;
+ width: 136px;
+height: 16px;
+top: 2360px;
+left: -622px;
+}
+
+.title-section2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.title-section2 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title-section2 {
+  color:  #B09A81;
+}
+.column2 {
+  position: relative;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+
+  #column-one {
+    margin-right: 15px;
+  }
+
+  #column-two {
+    margin-left: 15px;
+  }
+
+.column2 {
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  margin-right: 20px;
+  max-width: 50%; 
+  top: 2500px;
+  left: 350px;
+}
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; 
+  }
+  
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+

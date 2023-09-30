@@ -1,11 +1,15 @@
-const cards = document.querySelectorAll('.card1');
 
-cards.forEach((card) => {
-  const link = card.querySelector('a');
+document.addEventListener("DOMContentLoaded", function () {
+  const card1 = document.querySelector(".card1");
 
-  link.addEventListener('click', (event) => {
+  card1.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log('Сработал клик на ссылке');
-    window.location.href = '#cognitive-distortion-1';
+    console.log("Был клик");
+
+    const ikeaSection = document.querySelector(".ikea-effect"); // Используйте класс секции, а не ID
+
+    if (ikeaSection) { // Проверка на существование секции
+      ikeaSection.scrollIntoView({ behavior: "smooth", block: "start" }); // Прокручиваем к началу секции
+    }
   });
 });

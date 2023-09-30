@@ -9,7 +9,7 @@
 <body>
   <header class="background"></header>
   <main>
-    <h1 class="main-title"><span class="orange">Когнетивные</span><br><span class="orange">искажения</span><br>в программировании</h1>
+    <h1 class="main-title"><span class="orange">Когнитивные</span><br><span class="orange">искажения</span><br>в программировании</h1>
     <div class="main-tota"></div>
     <div class="text-block-container">
       <div class="text-block1">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</div>
@@ -25,7 +25,7 @@
       </div>
       <div id="navigation"></div>
       <div class="cards">
-        <div class="card1">
+        <div class="card1" id="card1">
           <a href="#cognitive-distortion-1"> 
             <div class="number1">1</div>
             <div class="titile3"><span class="orange">Эффект ИКЕА</span></div>
@@ -33,16 +33,15 @@
           </a>
         </div>
 
-        <div class="card2">
-          <a href="#cognitive-distortion-2"> <!-- Добавляем ссылку на вторую карточку -->
+        <div class="card2" id="card2">
+          <a href="#cognitive-distortion-2">
             <div class="number2">2</div>
             <div class="titile3"><span class="orange">Преждевременная оптимизация</span></div>
             <div class="text-block3">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</div>
           </a>
         </div>
 
-        <!-- Аналогично добавьте ссылки для остальных карточек -->
-        <div class="card3">
+        <div class="card3" id="card3">
           <a href="#cognitive-distortion-3">
             <div class="number3">3</div>
             <div class="titile3"><span class="orange">Искажение новизны</span></div>
@@ -78,14 +77,26 @@
         Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.
       </div>
       <div class="column">
-        Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.
+        Мы склонны переоценивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.
       </div>
       <div class="container-block-section1"></div>
       <div class="title-section1">КАК ПРОЯВЛЯЕТСЯ</div>
     </div>
    </section>
+   <section class="premature-optimization">
+    <div class="container-block-section2"></div>
+    <div class="container2">
+    <div class="column2" id="column-one">
+      Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
+    </div>
+    <div class="column2" id="column-two">
+      Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.
+    </div>
+    <div class="title-section2">КАК ПРОЯВЛЯЕТСЯ</div>
+  </div>
+   </section>
   </main>
   <footer></footer>
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
